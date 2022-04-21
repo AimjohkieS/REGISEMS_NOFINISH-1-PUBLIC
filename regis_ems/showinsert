@@ -1,0 +1,34 @@
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+          <table class="table table-striped" border="1" cellpadding="0" cellspacing="0" align="center">
+             <thead>
+                <tr class="table-primary">
+                   <th width="20%">id</th>
+                   <th width="20%">title</th
+                   <th width="50%">detail</
+                   <th width="18%">link</th>
+             </thead>
+             <?php
+             echo '<font colora"red">';
+             echo 'iniu = ';
+             echo $_GET I'q'l:
+             echo '</font>';
+             echo '<br/>';
+             $sql
+               WHERE title LIKE "$q%' OR detail LIKE '$q*'
+              ORDER BY id DESC";
+             $result
+            while($row - mysqli_fetch_array($result)) {
+                  "SELECT FROM tbl_search
+                     mysqli_query($con, $sql);
+                <td><?php echo $row['id'];?></td>
+                <td><?php echo $row['title']; ?></td>
+                <td><?php echo $rowl'detail'i;?></td>
+                <td><?php echo srowl'link'1;7></td>
+             </tr>
+         <?php } 7>
+         </table>
+      <?php mysqli_close($con); 7>
+</div
+ /div>

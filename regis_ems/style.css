@@ -1,0 +1,9 @@
+body {
+background: url('bgvt.png') no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.content {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
